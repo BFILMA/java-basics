@@ -6,7 +6,7 @@ public class Singleton {
     }
     public static synchronized Singleton getInstance(){
         if (instance == null){
-            Singleton instance = new Singleton();
+            instance = new Singleton();
         }
         return instance;
     }
